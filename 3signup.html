@@ -14,9 +14,13 @@
 
 <style> 
 
+.mainname {font-size: 35px; font-weight: bold}
+
   h2 {font-weight: bold;
   }
   
+  h3 {text-align: center; font-weight: bold; }
+
   a {color:black;
   text-decoration: none;}
   
@@ -43,6 +47,8 @@
   
   .footer {display: flex; justify-content:center;}
   
+  .membership {display:grid;  flex-direction:column; justify-content:center;}
+
   </style>
   
   
@@ -82,7 +88,7 @@
                   <a class="nav-link" href="#">공지사항</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">갤러리</a>
+                  <a class="nav-link" href="4gallery.html">갤러리</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">오시는 길</a>
@@ -97,17 +103,26 @@
   
     
 
-    <h2>간편 회원가입</h2>
-    <div>
-          <input type="text" name="name" size="10" value="이메일주소"></p>
-          <input type="text" name="name" size="10" value="닉네임"></p>
-          <input type="text" name="name" size="10" value="비밀번호"></p>
-          <input type="text" name="name" size="10" value="비밀번호 확인"></p>
+    
+    <div class="membership">
+          <h3>간편 회원가입</h3>
+          <input type="text" name="name" size="30" value="이메일주소"></p>
+          <input type="text" name="name" size="30" value="닉네임"></p>
+          <input type="text" name="name" size="30" value="비밀번호"></p>
+          <input type="text" name="name" size="30" value="비밀번호 확인"></p>
           <p></p>
-          <input type="submit" value="회원가입">
+          <input type="submit" value="회원가입에 동의합니다.">
     </div>
     </body>
 
+
+
+
+
+
+    
+
+    <hr>
 
  <!-- 푸터 영역 -->
  <div class="footer">

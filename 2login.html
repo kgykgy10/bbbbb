@@ -14,7 +14,9 @@
 
 <style> 
 
-  h2 {font-weight: bold;
+.mainname {font-size: 35px; font-weight: bold}
+
+  h2, h3 {font-weight: bold;
   }
   
   a {color:black;
@@ -44,20 +46,20 @@
   .sign {display: flex;
     justify-content:center;
     margin: 100px;
-    border: red 2px solid;
+    
   }
 
   .signin {display: flex;
     flex-direction:column;
     justify-content:center;
-    border: red 2px solid;
+    
   }
   
-  .footer {display: flex; justify-content:center;}
+  .footer {display: flex; justify-content:center; }
   
-  div.sign div.signin h2 {
+  div.sign div.signin h3 {
     text-align: center;
-    border: red 2px solid;
+    
   }
   </style>
   
@@ -98,7 +100,7 @@
                   <a class="nav-link" href="#">공지사항</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">갤러리</a>
+                  <a class="nav-link" href="4gallery.html">갤러리</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">오시는 길</a>
@@ -117,7 +119,7 @@
       <img src="북1.jpg" width="250">
 
     <div class="signin" style="margin-left: 100px" >
-      <h2>로그인</h2>
+      
             <p>I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D : <input type="text" name="name" size="10"></p>
             <p>PASSWORD : <input type="text" name="name" size="10" value=""></p>
             <p></p>
@@ -128,11 +130,12 @@
 
 
    
-
-
+      <hr>
+      
 
  <!-- 푸터 영역 -->
  <div class="footer">
+
   <h5>상호명 : (주)해피캠핑장 / 대표 : 김가영 </h5>
 </div>
 
